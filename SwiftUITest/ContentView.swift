@@ -10,7 +10,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack{
+            HStack(alignment: .top, spacing: 20) {
+                Text("Hello")
+                
+                Image("lemon")
+                
+                Button(action: {
+                    
+                }) {
+                    Image("donut").renderingMode(.original)
+                }
+                Spacer()
+            }
+            
+            Spacer()
+        }
+        
+        
+        
     }
 }
 
